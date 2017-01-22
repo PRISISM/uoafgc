@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>University of Auckland Fighting Game Club</title>
+
+    <link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900|Knewave" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Header -->
+    <header>
+        <div class="overlay"></div>
+
+        <div id='fgcvid'></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <img class="img-responsive fgc-logo" src="img/logo.png" alt="">                    
+                <div class="intro-text">
+<!--                         <span class="name">University of Auckland Fighting Game Club</span>
+                        <hr class="star-light"> -->
+                        <span class="logo-title">University of Auckland Fighting Game Club</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var player;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('fgcvid', {
+                // height: '480',
+                // width: '854',
+                videoId: '_J9g5ncqpmg',
+                playerVars: {
+                    'autoplay': 1,
+                    'controls': 0,
+                    'start': 112,
+                    'disablekb': 1,
+                    'enablejsapi': 1,
+                    'modestbranding': 1,
+                    'loop': 1,
+                    'showinfo': 0,
+                    'playlist': '_J9g5ncqpmg'
+                },
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+        }
+
+        function onPlayerReady() {
+            player.playVideo();
+            // Mute!
+            player.mute();
+        }
+
+        </script>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section-skew">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p>The University of Auckland Fighting Game Club is a platform for newcomers and veterans to the fighting game community to enjoy fighting games in a casual and competitive environment!
+
+
+                    </p>
+                </div>
+
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Section -->
+    <section id="event" class="section-skew">
+        <div class="event-image"></div>
+
+        <div class="event-overlay"></div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Events</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p>We host casual and competitive events for players of all skill levels. 
+                    Our main series is the <em class='lead'>Kumite</em> line, which is a social night featuring fighting games of all sorts!
+                    </p>
+
+                    <p>In addition, the UoAFGC hosts the premier Smash 4 monthly - <em class='lead'>Limit To Win It</em>, and we are open to more ideas for competitive ranking events!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Games Section -->
+    <section id="games">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+            <div class="carousel-inner" role="listbox">
+
+                <div class="active item">
+                </div>
+                <div class="item">
+                </div>   
+                <div class="item">
+                </div>             
+                <div class="item">
+                </div>       
+                <div class="item">
+                </div>       
+
+            </div>
+            <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Games</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p>
+                        These are just an example of some of the games we play in the club. Let us know if there are any other games you're interested in!
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section
+    https://docs.google.com/forms/d/e/1FAIpQLSeeZdKJovOYDVJRdLI8hbGSmU4Ej1h8Dd7eMmpI8qQv61WM3Q/formResponse  -->
+    <section id='contact'>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Join Us!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p>Fill out this form to register yourself for the club and mailing list!</p>
+
+                    <p>Afterwards, come down to an event and pay your registration fee ($5 a semester) </p>
+                    <br>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeeZdKJovOYDVJRdLI8hbGSmU4Ej1h8Dd7eMmpI8qQv61WM3Q/viewform?embedded=true" width="760" height="500" frameborder="1" marginheight="0" marginwidth="0">Loading...</iframe>
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+<!--                     <form name="sentMessage" id="contactForm" action="" method="POST" target="no-target">
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>UoA Student ID</label>
+                                <input type="text" class="form-control" placeholder="UoA Student ID (Optional)" id="uoaid">
+                            </div>
+                        </div>
+
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>UPI</label>
+                                <input type="text" class="form-control" placeholder="UPI (Optional)" id="upi">
+                            </div>
+                        </div>
+
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Games you're interested in</label>
+                                <textarea rows="3" class="form-control" placeholder="Games you're interested in" id="form-games"></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form> -->
+
+                </div>
+
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above" id="follow">
+            <div class="container">
+                <div class="row">
+
+                    <div class="footer-col col-md-12">
+                        <h3>Follow Us</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/groups/uoafgc/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitch.tv/uoafgc" class="btn-social btn-outline"><i class="fa fa-fw fa-twitch"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/uoafgc" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; UoAFGC 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+    
+    <script type="text/javascript">
+        $(function() {
+            $('.carousel').carousel({
+                interval: 3000
+            });
+        });
+    </script>
+</body>
+
+</html>

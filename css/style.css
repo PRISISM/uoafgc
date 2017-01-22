@@ -2,12 +2,28 @@ body {
 	background-color:  #247BA0;
 
 }
+header {
+	background: none;
+}
+
+header .container {
+	z-index: 1;
+	position: relative;
+	padding-bottom: 150px;
+	padding-top: 120px;
+}
+
+header .fgc-logo {
+	max-width: 200px;
+	margin-bottom: 0;
+}
+
 .overlay {
 	background: #444;
 	opacity: 0.8;
 	position: absolute;
 	top: 0;
-	bottom: 100px;
+	bottom: 0px;
 	right: 0px;
 	left: 0px;
 	z-index: 0;
@@ -39,28 +55,13 @@ body {
 	#fgcvid {
 		min-height: auto !important;
 		bottom: auto !important;
-		top: 0 !important;
-		height: 700px;
-		width: 1000px;
+/*		top: 0 !important;
+*/		height: 700px;
+		width: 1200px;
 		position: fixed !important;
 	}
 }
 
-header {
-	background: none;
-}
-
-header .container {
-	z-index: 1;
-	position: relative;
-	padding-bottom: 180px;
-	padding-top: 120px;
-}
-
-header .fgc-logo {
-	max-width: 200px;
-	margin-bottom: 0;
-}
 
 .logo-title {
 	font-family: 'Knewave', cursive;
@@ -124,6 +125,14 @@ section h2 {
 	left: 0px;
 }
 
+@media (max-width: 767px){
+	#event .event-image {
+		background-size: 400%;
+
+	}
+
+}
+
 #contact {
 	background-color: white;
 	transform: skew(0deg,-3deg);
@@ -131,6 +140,10 @@ section h2 {
 
 #contact h2, #contact p, #contact form, #contact iframe {
 	transform: skew(0deg, 3deg);
+}
+
+#contactForm {
+
 }
 
 #follow {
@@ -225,24 +238,32 @@ now override the 3.3 new styles for modern browsers & apply opacity
 .item:nth-child(1) {
 	background: url('../img/carousel/ssbm.png');
 	background-size: cover;
+	background-position: center;
 }
 
 .item:nth-child(2) {
 	background: url('../img/carousel/sfv.png');
 	background-size: cover;
+	background-position: center;
 }
 
 .item:nth-child(3) {
 	background: url('../img/carousel/mkx.png');
 	background-size: cover;
+	background-position: center;
+
 }
 
 .item:nth-child(4) {
 	background: url('../img/carousel/xrd.png');
 	background-size: cover;
+	background-position: center;
+
 }
 
 .item:nth-child(5) {
 	background: url('../img/carousel/ssb4.png');
 	background-size: cover;
+	background-position: center;
+
 }
